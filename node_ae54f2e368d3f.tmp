@@ -1,0 +1,25 @@
+// let i =15;
+// console.log(i);
+// //i ++
+// i += 2
+// console.log(i);
+// // i++
+// i += 2
+// console.log(i);
+// // i++
+// i += 2
+// console.log(i);
+// // i++
+// i += 2
+// console.log(i);
+// // i++
+// i += 2 // aumenta de 2 en 2
+// console.log(i);
+
+let i = 0;
+
+while (i === 0 ){
+    console.log("i ==>", i)
+}
+
+console.log("fim do laço !")

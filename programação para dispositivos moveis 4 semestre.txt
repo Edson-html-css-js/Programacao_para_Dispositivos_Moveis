@@ -1,0 +1,47 @@
+Plataformas de desenvolvimento para dispositivos móveis:
+
+	* Nativa
+		IOS -> Objective-C ou Swift
+		Android -> C, Java ou Kotlin
+
+		Xamarim -> escreve em uma linguagem intermediária, e o código é transformado para Objective-C ou Java de acordo com a plataforma
+
+	* Hibrida
+		Código feito em HTML, CSS e JS é executado tanto no IOS quanto no Android
+		O dispositivo móvel para rodar este código ele abre um navegador
+
+		Framework chamado ==> Phonegap e Apache Cordova
+
+	* Frameworks Nativos/Hibridos
+
+React Native, códigos são feitos em JavaScript => JS5  EcmaScript => ES6
+			IOS => Webkit (processador de Javascript)
+			Android => V8 (processador de Javascript)
+
+		Dart e Flutter, códigos são feitos em Dart => há um processador de linguagem dart para o IOS e Android
+
+
+
+ NO CMD
+abaixando expo:>>   npm install -g expo-cli
+
+comando para criar o projeto, dar o comado já na pasta que vc quer pelo CMD:>>  expo init aula2 4semestre
+
+npm start :>> para abrir o projeto no local host no browser!
+
+dir:>> para ver o que tem dentro da pasta
+
+
+<Text>Hello word no App doEdson Lucas da Silva</Text> :>> para dar um quebra de linha ná programação mobile!
+
+
+
+
+
+
+
+
+
+
+
+
