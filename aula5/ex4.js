@@ -7,6 +7,7 @@ console.log("energia ==>", skeep.energia);
 console.log("velocidade ==>", skeep['velocidade']);
 console.log("temperatura ==>",skeep.temperatura);
 console.log("humor==>" , skeep['humor']);
+console.log("teste=git");
 
 
 
