@@ -23,7 +23,12 @@ React Native, códigos são feitos em JavaScript => JS5  EcmaScript => ES6
 
 
  NO CMD
+
+para atualizar o npm = npm install --global npm
+
 abaixando expo:>>   npm install -g expo-cli
+
+criar o projeto = expo init + nome da pasta 
 
 comando para criar o projeto, dar o comado já na pasta que vc quer pelo CMD:>>  expo init aula2 4semestre
 
