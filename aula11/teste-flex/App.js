@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet, View} from 'react-native';
+import {Button,StyleSheet, View} from 'react-native';
 
 // const estilos = StyleSheet.create({
 //   caixa: { 
@@ -25,7 +25,7 @@ export default function TesteFlex() {
   return (
     <View style={{
       flex: 1,
-      flexDirection:"column ,raw",
+      flexDirection:"row",
       justifyContent: "space-around",
       alignItems: "stretch",
       backgroundColor: "blue",
@@ -35,21 +35,38 @@ export default function TesteFlex() {
       <View style={StyleSheet.compose(estilos.caixa, estilos.amarelo)}></View>
       <View style={StyleSheet.compose(estilos.caixa, estilos.verde)}></View> */}
       <View style={{
-          flex: 1,
-          backgroundColor: "red",
-      }}></View>
-      <View style={{
-          flex: 1,
-          backgroundColor: "green",
-      }}></View>
-      <View style={{
-          flex: 4,
-          backgroundColor: "red",
-      }}></View>
-       <View style={{
-          flex: 1,
-          backgroundColor: "green",
-      }}></View>
+          flex: 2,
+          backgroundColor: "blue",
+          
+      }}>
+
+        
+      </View>
+      
+       <View>
+         <Button title="botão  C"/>
+      
+         <Button title=""/>
+         <View></View>
+         <Button title="botão  B "/>
+         <Button title=""/>
+         <Button title="botão  A"/>
+
+         </View>
+         <View>
+         <Button title=""/>
+         </View>
+         <View>
+         <Button title=""/>
+         </View>
+         <View>
+         <Button title=""/>
+         </View>
+         <View>
+         <Button title=""/>
+         </View>
+      
+      
     </View>
   )
 }
